@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ferdous | Paribahan Counter</title>
+    <style>
+        :root { --primary: #e63946; --secondary: #1d3557; --light: #f1faee; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; background: var(--light); color: var(--secondary); }
+        header { background: var(--secondary); color: white; padding: 40px 20px; text-align: center; border-bottom: 5px solid var(--primary); }
+        .container { max-width: 900px; margin: 20px auto; padding: 20px; }
+        .info-box { background: white; padding: 25px; border-radius: 15px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); margin-bottom: 30px; text-align: center; }
+        h2 { color: var(--primary); border-bottom: 2px solid #ddd; padding-bottom: 10px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; background: white; border-radius: 10px; overflow: hidden; }
+        th, td { padding: 15px; text-align: left; border-bottom: 1px solid #ddd; }
+        th { background: var(--primary); color: white; }
+        tr:hover { background-color: #f9f9f9; }
+        .btn { display: inline-block; background: #25d366; color: white; padding: 12px 25px; text-decoration: none; border-radius: 30px; font-weight: bold; margin-top: 15px; transition: 0.3s; }
+        .btn:hover { background: #128c7e; transform: scale(1.05); }
+        footer { text-align: center; padding: 20px; font-size: 14px; color: #666; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>ফেরদৌস পরিবহন কাউন্টার</h1>
+    <p>আপনার যাত্রা নিরাপদ ও আরামদায়ক হোক</p>
+</header>
+
+<div class="container">
+    <div class="info-box">
+        <h2>কাউন্টার ম্যানেজারের তথ্য</h2>
+        <p><strong>নাম:</strong> ফেরদৌস (Ferdous)</p>
+        <p><strong>পদবি:</strong> পরিবহন কাউন্টারম্যান</p>
+        <p><strong>ঠিকানা:</strong> বয়াতিরহাট (Boyatirhat)</p>
+        <p><strong>মোবাইল:</strong> 01725880958</p>
+        <a href="https://wa.me/8801623571125" class="btn">হোয়াটসঅ্যাপে বুকিং করুন</a>
+    </div>
+
+    <div class="info-box">
+        <h2>বাসের সময়সূচী ও ভাড়া</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>গন্তব্য</th>
+                    <th>ছাড়ার সময়</th>
+                    <th>ভাড়া (টাকা)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>ঢাকা - বয়াতিরহাট</td>
+                    <td>সকাল ০৮:৩০</td>
+                    <td>৫৫০/-</td>
+                </tr>
+                <tr>
+                    <td>বয়াতিরহাট - ঢাকা</td>
+                    <td>রাত ০৯:০০</td>
+                    <td>৫৫০/-</td>
+                </tr>
+                <tr>
+                    <td>চট্টগ্রাম - বয়াতিরহাট</td>
+                    <td>দুপুর ০২:১৫</td>
+                    <td>৪০০/-</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<footer>
+    &copy; 2026 ফেরদৌস পরিবহন | বয়াতিরহাট শাখা
+</footer>
+
+</body>
+</html>
